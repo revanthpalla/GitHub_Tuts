@@ -1,0 +1,25 @@
+# to check git version
+>> git --version
+
+# to check global config
+>> git config --list --show-origin
+
+>> git config --list
+
+# to set username
+>> git config --global user.name "revanthpalla"
+
+# to set emailaddress
+>> git config --global user.email "revanth4902@gmail.com"
+
+# to create an empty git repo
+>> git init
+
+# to track files and folders
+>> git status
+
+# to add file to stage area 
+>> git add <fileName>
+
+# to commit changes (create a snapshot)
+>> git commit -m <commit_msg>
