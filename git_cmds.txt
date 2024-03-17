@@ -23,3 +23,13 @@
 
 # to commit changes (create a snapshot)
 >> git commit -m <commit_msg>
+
+# to remove a commit ID 
+
+/* suppose we have 3 commit ID's 
+commit1: 9A (latest one)
+commit2: 92 (second older)
+commit3: 8E (first older)
+
+git reset 8E so after this all above commits will be deleted.
+*/
