@@ -33,3 +33,18 @@ commit3: 8E (first older)
 
 git reset 8E so after this all above commits will be deleted.
 */
+
+
+***************************************************************************
+Stashing Concept
+***************************************************************************
+1. To demonstrate stashing, you’ll go into your project and start working on a couple of files 
+and possibly stage one of the changes. If you run git status, you can see your dirty state:
+
+2. Now you want to switch branches, but you don’t want to commit what you’ve been working on yet, 
+so you’ll stash the changes. To push a new stash onto your stack, run git stash or git stash push:
+
+3. At this point, you can switch branches and do work elsewhere; your changes are stored on your stack. 
+To see which stashes you’ve stored, you can use  
+
+>> git stash list 
