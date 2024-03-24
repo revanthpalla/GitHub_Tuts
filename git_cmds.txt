@@ -47,4 +47,21 @@ so you’ll stash the changes. To push a new stash onto your stack, run git stas
 3. At this point, you can switch branches and do work elsewhere; your changes are stored on your stack. 
 To see which stashes you’ve stored, you can use  
 
->> git stash list 
+>> git stash list
+
+4. To pop last stashed changes
+
+>> git stash pop
+
+5. To clear stash
+
+>> git stash clear
+
+# connect remote repository to local repository
+>> git remote add origin <URL_name>
+
+creates a new remote called origin located at https://github.com/revanthpalla/GitHub_Tuts.git
+Once you do this, in your push commands, you can push to origin instead of typing out the whole URL.
+
+>> git remote -v # to see list of URL's in your repo added to origin
+ 
